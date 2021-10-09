@@ -1,0 +1,134 @@
+@import url("./nord.css");
+@import url("./root.css");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,600;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+@import url("./classes/card.css");
+@import url("./classes/logo.css");
+@import url("./classes/buttons.css");
+@import url("./classes/footer.css");
+
+html {
+  scroll-behavior: smooth;
+  scrollbar-color: var(--nord2) var(--nord0);
+}
+
+body {
+  background: var(--nord0);
+  color: var(--nord4);
+  font-family: "Fira Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: justify;
+  margin: 0;
+}
+
+* {
+  font-family: "Fira Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+main {
+  padding: 1vh 9vw;
+}
+
+nav {
+  background: var(--nord2);
+  height: 1rem;
+  padding: 1rem;
+  position: relative;
+}
+
+nav * * {
+  margin: 0.5rem;
+}
+
+nav .nav-right {
+  text-align: right;
+  position: absolute;
+  right: 1rem;
+}
+
+nav .nav-left {
+  text-align: left;
+  position: absolute;
+  left: 1rem;
+}
+
+nav a {
+  color: var(--nord6);
+}
+
+nav a:hover {
+  color: var(--nord7);
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans", "Fira Sans", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-weight: 800;
+  line-height: 1.1;
+}
+
+h1 {
+  font-size: 2.25rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.875rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.125rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin-top: 1.25rem;
+}
+
+p {
+  line-height: 1.5;
+  margin: 1.875rem 0;
+}
+
+code {
+  font-family: monospace;
+  font-size: 1rem;
+  padding: 0.1rem;
+  background-color: var(--nord1);
+  border-radius: 2px;
+}
+
+a {
+  color: var(--nord8);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+blockquote {
+  color: var(--nord5);
+  font-style: italic;
+}
+blockquote p:first-child {
+  margin-top: 0;
+}
+hr.small {
+  max-width: 6.25rem;
+  margin: 1rem auto;
+  border-width: 0.25rem;
+  border-color: inherit;
+  border-radius: 0.1875rem;
+}
