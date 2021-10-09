@@ -1,0 +1,12 @@
+@import url("../root.css");
+
+footer {
+  padding: 1rem 5rem;
+  background: var(--nord1);
+  text-align: center;
+  margin-top: 1rem;
+}
+
+footer .item {
+  margin: 0.5rem;
+}

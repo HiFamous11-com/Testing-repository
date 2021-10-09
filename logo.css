@@ -1,0 +1,12 @@
+@import url("../root.css");
+
+.logo-container {
+  text-align: center;
+  margin: 10px;
+}
+
+.logo {
+  border-radius: 50%;
+  max-height: 320px;
+  max-width: 320px;
+}

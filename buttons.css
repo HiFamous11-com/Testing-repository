@@ -1,0 +1,37 @@
+@import url("../root.css");
+
+button {
+  background-color: var(--nord8);
+  color: var(--nord3);
+  border-radius: 5px;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: none;
+  transition: 300ms all ease-in-out;
+  font-weight: 900;
+  margin: 0.2rem;
+}
+
+button.red {
+  background-color: var(--nord11);
+  color: var(--nord4);
+}
+
+button.orange {
+  background-color: var(--nord12);
+}
+
+button.green {
+  background-color: var(--nord14);
+}
+
+button:hover {
+  background-color: var(--nord3);
+  color: var(--nord6);
+}
+
+@media screen and (max-width: 993px) {
+  button {
+    font-size: 3rem;
+  }
+}

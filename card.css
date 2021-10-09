@@ -1,0 +1,49 @@
+@import url("../root.css");
+
+.card {
+  --radius: 5px;
+  border-radius: var(--radius);
+  background: var(--nord1);
+  border-style: none;
+  padding: 1.25rem;
+  border: calc(var(--radius) / 2) solid var(--nord7);
+  margin: 3vh 3vw;
+}
+
+.card.main {
+  margin: 4vh 1vw;
+}
+
+.card.sub {
+  --radius: 5px;
+  border-radius: var(--radius);
+  border: 0 none;
+  margin: 1%;
+  padding: 1rem;
+}
+
+.card.red {
+  border-color: var(--nord11);
+}
+
+.card.green {
+  border-color: var(--nord14);
+}
+
+.card.sub.red {
+  background-color: var(--nord11);
+  color: var(--nord4);
+}
+
+.card.sub.green {
+  background-color: var(--nord14);
+  color: var(--nord3);
+}
+
+.card.card.hoverable {
+  transition: 300ms all ease-in-out;
+}
+
+.card.hoverable:hover {
+  background-color: var(--nord2);
+}

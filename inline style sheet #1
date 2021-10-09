@@ -1,0 +1,7 @@
+
+        @import url("https://acutewoof.github.io/minimalist-css-kit/styles/main.css");
+        body {
+        background-image: url("https://c.wallhere.com/photos/48/75/Linux_Pop_OS_abstract_digital-2004493.jpg!d");
+        background-repeat: no-repeat;
+        background-size: cover;}
+    
