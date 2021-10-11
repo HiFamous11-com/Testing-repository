@@ -115,7 +115,8 @@ html {
   }
   
   a:hover {
-    text-decoration: underline;
+    text-decoration: underline overline;
+    text-decoration-color: red;
   }
   
   blockquote {
