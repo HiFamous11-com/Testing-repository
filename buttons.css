@@ -1,12 +1,11 @@
 @import url("./root.css");
 
 button {
-  background-color: var(--nord8);
-  color: var(--nord3);
+  background-image: url(https://i.pinimg.com/originals/c6/3f/2a/c63f2a519558e22acc57db6764fb9c01.jpg);
   border-radius: 5px;
   padding: 0.5rem;
   font-size: 1rem;
-  border: none;
+  border-color: white;
   transition: 300ms all ease-in-out;
   font-weight: 900;
   margin: 0.2rem;
@@ -26,8 +25,8 @@ button.green {
 }
 
 button:hover {
-  background-color: var(--nord3);
-  color: var(--nord6);
+  color: aqua;
+  background-color: darkblue;
 }
 
 @media screen and (max-width: 993px) {
