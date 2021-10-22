@@ -3,7 +3,7 @@
 .card {
   --radius: 5px;
   border-radius: var(--radius);
-  background: var(--nord1);
+  background-image: url(https://1.bp.blogspot.com/-CbWLumSsnHA/X3NCN8Y97SI/AAAAAAAAbdM/6_nItNbt0jcQvkFzogyKeqUGJjMyM57rACLcBGAsYHQ/s16000/v3-290920-rocket-minimalist-desktop-wallpaper-hd.png);
   border-style: none;
   padding: 1.25rem;
   border: calc(var(--radius) / 2) solid var(--nord7);
