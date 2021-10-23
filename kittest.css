@@ -7,7 +7,7 @@
 @import url("./buttons.css");
 @import url("./footer.css");
 @import url("box-container.css");
-@import url("./img-container.css");
+@import url("img-container.css");
 
 html {
     scroll-behavior: smooth;
