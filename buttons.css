@@ -1,5 +1,19 @@
 @import url("./root.css");
 
+.button {
+  animation-name: fade;
+  animation-duration: 4s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 button {
   background-image: url(https://i.pinimg.com/originals/c6/3f/2a/c63f2a519558e22acc57db6764fb9c01.jpg);
   border-radius: 5px;

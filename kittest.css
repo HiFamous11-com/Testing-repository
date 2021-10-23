@@ -6,10 +6,12 @@
 @import url("./logo.css");
 @import url("./buttons.css");
 @import url("./footer.css");
+@import url("box-container.css");
+@import url("./img-container.css");
 
 html {
     scroll-behavior: smooth;
-    scrollbar-color: var(--nord2) var(--nord0);
+    scrollbar-color: #00b1f7 #b700ff;
   }
   
   body {
