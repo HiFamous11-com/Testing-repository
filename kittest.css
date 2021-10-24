@@ -15,7 +15,7 @@ html {
   }
   
   body {
-    background: var(--nord0);
+    background: aqua;
     color: var(--nord4);
     font-family: "Fira Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-align: justify;
@@ -31,7 +31,7 @@ html {
   }
   
   nav {
-    background: var(--nord2);
+    background-image: url(https://pop-planet.info/forums/attachments/mountain-pop-png.404/);
     height: 1rem;
     padding: 1rem;
     position: relative;
@@ -58,7 +58,7 @@ html {
   }
   
   nav a:hover {
-    color: var(--nord7);
+    color: rgb(60, 255, 0);
     text-decoration: none;
   }
   
