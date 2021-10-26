@@ -1,6 +1,6 @@
 @import url("./root.css");
 
-.button {
+button {
   animation-name: fade;
   animation-duration: 4s;
 }
