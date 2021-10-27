@@ -8,6 +8,7 @@
 @import url("./footer.css");
 @import url("box-container.css");
 @import url("img-container.css");
+@import url("scrollable.css");
 
 html {
     scroll-behavior: smooth;
@@ -25,6 +26,46 @@ html {
   * {
     font-family: "Fira Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: -300%;
+      width: 0%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+  p {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  
   
   main {
     padding: 1vh 9vw;
