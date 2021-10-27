@@ -112,12 +112,12 @@ html {
   }
   
   a {
-    color: var(--nord8);
+    color: rgb(0, 255, 0);
     text-decoration: none;
   }
   
   a:hover {
-    text-decoration: underline overline;
+    text-decoration: overline;
     text-decoration-color: red;
   }
   
