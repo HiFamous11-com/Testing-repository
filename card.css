@@ -58,5 +58,6 @@
 }
 
 .card.hoverable:hover {
-  background-color: var(--nord2);
+  background: aqua;
+  background-color: #262c3a;
 }
