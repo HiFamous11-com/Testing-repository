@@ -1,0 +1,13 @@
+.sword-container {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+    margin-left: -300%;
+    width: 0%;
+  }
+}
