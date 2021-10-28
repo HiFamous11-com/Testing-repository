@@ -1,16 +1,16 @@
 @import url("./root.css");
 
 .card {
-  animation-name: fade;
-  animation-duration: 4s;
+  animation-duration: 3s;
+  animation-name: slidein;
 }
 
-@keyframes fade {
+@keyframes slidein {
   from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
+    margin-left: 100%;
+    width: 300%;
+    margin-left: -300%;
+    width: 0%;
   }
 }
 .card {
