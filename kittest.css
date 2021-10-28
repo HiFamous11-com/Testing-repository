@@ -9,6 +9,7 @@
 @import url("box-container.css");
 @import url("img-container.css");
 @import url("scrollable.css");
+@import url("sword-container.css");
 
 html {
     scroll-behavior: smooth;
@@ -46,26 +47,25 @@ html {
     to {
       margin-left: 0%;
       width: 100%;
-    }
+}
+}
+
+p {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
   }
 
-  p {
-    animation-duration: 3s;
-    animation-name: slidein;
+  to {
+    margin-left: 0%;
+    width: 100%;
   }
-  
-  @keyframes slidein {
-    from {
-      margin-left: 100%;
-      width: 300%;
-    }
-  
-    to {
-      margin-left: 0%;
-      width: 100%;
-    }
-  }
-  
+}
   
   main {
     padding: 1vh 9vw;
