@@ -12,6 +12,6 @@
   }
 }
 
-:hover {
+.sword-container:hover {
   border-color: aqua;
 }
