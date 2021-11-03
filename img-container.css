@@ -11,4 +11,7 @@
       opacity: 1;
     }
   }
-  
+
+.img-container:hover {
+  border-color: aqua;
+}
