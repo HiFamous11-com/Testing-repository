@@ -11,3 +11,7 @@
     width: 0%;
   }
 }
+
+:hover {
+  border-color: aqua;
+}
